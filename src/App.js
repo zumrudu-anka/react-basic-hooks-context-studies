@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Nav from "./components/Nav";
 import About from "./pages/About/About";
 import BookApp from "./pages/BookList/BookApp";
@@ -11,7 +11,6 @@ import UseEffectLesson from "./pages/UseEffectLesson/UseEffectLesson";
 function App() {
   return (
     <div className="App">
-      <Router>
         <Nav/>
         <div className = "pageContent"> 
             <Switch>
@@ -23,8 +22,6 @@ function App() {
               <Route path = "/members/:id" component = {Profile}/>
             </Switch>
         </div>
-      </Router>
-
     </div>
   );
 }
