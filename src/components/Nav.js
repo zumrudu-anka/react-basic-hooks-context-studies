@@ -11,14 +11,14 @@ export default function Nav() {
                 <Link to="/use-effect-lessons">
                     <li>Use Effect Lessons</li>
                 </Link>
+                <Link to="/book-app">
+                    <li>Book App</li>
+                </Link>
                 <Link to="/about">
                     <li>About</li>
                 </Link>
                 <Link to="/members">
                     <li>Members</li>
-                </Link>
-                <Link to="/members/">
-                    <li>Profile</li>
                 </Link>
             </ul>
         </nav>
